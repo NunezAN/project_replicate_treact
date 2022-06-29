@@ -326,13 +326,14 @@ main {
 .pricings__objects{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
 }
 .pricings__obj{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(100%/3);
+  width: 30%;
   border: 1px solid #e5e7eb;
   border-radius: 10px;
   margin-right: 12px;
