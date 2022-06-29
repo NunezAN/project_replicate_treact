@@ -29,6 +29,9 @@ li {
 .text--gray{
   color:rgba(160,174,192,1);
 }
+a:hover{
+  cursor: not-allowed;
+}
 button {
   padding: 10px 16px;
   border-radius: 9999px;
@@ -424,4 +427,34 @@ main {
 }
 .bg--pink{
   background-color: rgb(245, 101, 101);
+}
+
+/* FOOTER */
+footer{
+  background-color: rgba(45,55,72,1);
+  color: white;
+  padding: 0 32px;
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.links__row{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* width: calc(100%/5); */
+  text-align: left;
+}
+.link{
+  margin-bottom: 8px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+.links__header{
+  font-size: 16px;
+  margin-bottom: 16px;
 }
