@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -26,6 +26,9 @@ li {
 .text--purple {
   color: #6415ff;
 }
+.text--gray{
+  color:rgba(160,174,192,1);
+}
 button {
   padding: 10px 16px;
   border-radius: 9999px;
@@ -38,6 +41,9 @@ button {
 }
 .container {
   padding: 80px 0;
+}
+.text--white{
+  color: white;
 }
 
 /* NAV */
@@ -305,4 +311,116 @@ main {
   font-size: 36px;
   font-weight: 600;
   color: rgba(203,213,224,1);
+}
+/* PRICING */
+#pricing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pricings__container{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.pricings__objects{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.pricings__obj{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100%/3);
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  margin-right: 12px;
+  position: relative;
+
+}
+.pricing__para{
+  text-align: center;
+  margin-bottom: 24px;
+}
+.pricings__top{
+  text-align: center;
+  padding: 24px 42px;
+}
+.pricings__middle{
+  border-top: 2px solid #e5e7eb;
+  width: 100%;
+  padding: 24px 32px;
+  text-align: center;
+}
+.pricings__bottom{
+  border-top: 2px solid #e5e7eb;
+  width: 100%;
+  padding: 24px 32px;
+  text-align: center;
+}
+.personal__button{
+  background-color: rgba(56, 178, 172,1);
+  width: 100%;
+  font-weight: 700;
+}
+.business__button{
+  background-color: white;
+  color: #6415ff;
+  width: 100%;
+  font-weight: 700;
+}
+.enterprise__button{
+  background-color: rgb(245, 101, 101);
+  color: white;
+  width: 100%;
+  font-weight: 700;
+}
+.purple__background{
+  background-color: rgb(76, 81, 191);
+  color: white;
+  border-color: rgb(76, 81, 191);
+}
+.purple__border{
+  border-color: rgba(93, 100, 231, 0.418);
+}
+.pricing__top--header{
+  font-size: 20px;
+  font-weight: 700;
+}
+.pricing__top--price{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: .25rem;
+  margin-bottom: .25rem;
+}
+.pricing__top--subtitle{
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+.pricings__middle--header{
+  font-size: 20px;
+  font-weight: 700;
+}
+.pricings__middle--subtitle{
+  margin-top: 20px;
+  font-size: 16px;  
+}
+.highlight{
+  border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 0.5rem;
+    width: 100%;
+    z-index: 1;
+}
+.bg--teal{
+  background-color: rgba(56, 178, 172,1);
+}
+.bg--pink{
+  background-color: rgb(245, 101, 101);
 }
