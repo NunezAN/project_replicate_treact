@@ -435,6 +435,10 @@ footer{
   color: white;
   padding: 0 32px;
 }
+.links--container{
+  padding-bottom: 32px;
+  border-bottom: 3px solid black;
+}
 .links{
   display: flex;
   justify-content: space-between;
@@ -457,4 +461,29 @@ footer{
 .links__header{
   font-size: 16px;
   margin-bottom: 16px;
+}
+.footer__socials{
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socials{
+  display: flex;
+  justify-content: space-between;
+}
+.social__link{
+  color: black;
+  border: 0 solid white;
+  background-color: white;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  font-size: 16px;
+  width: 36px;
+  line-height: 36px;
+  text-align: center;
 }
